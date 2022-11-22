@@ -60,7 +60,7 @@ CHAT_ID = -67490173
 try:
     BOT_TOKEN = Variable.get('telegram_secret')
 except:
-    BOT_TOKEN = '5419220493:AAHQ4BlzRLYPJ_b3reQ2Cok9Zrpey9l3THU'
+    BOT_TOKEN = ''
 
 def send_message(context):
     date = context['ds']
